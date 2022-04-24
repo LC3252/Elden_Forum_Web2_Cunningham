@@ -352,6 +352,14 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0%;
+  margin: 0%;
+}
+ul li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -394,3 +402,38 @@ header {
 /* =============
     Footer
 ============= */
+<<<<<<< Updated upstream
+=======
+/* =============
+    GettingStarted
+============= */
+#GettingStarted ul li {
+  border: 1px solid red;
+}
+#GettingStarted ul li img {
+  width: 100%;
+  border: 1px solid red;
+}
+
+/* =============
+    Hero
+============= */
+#Hero {
+  border: 1px solid red;
+}
+#Hero img {
+  width: 100%;
+}
+
+/* =============
+    Hero2
+============= */
+#Hero2 img {
+  width: 100%;
+  border: 1px solid red;
+}
+
+/* =============
+    Searchlight
+============= */
+>>>>>>> Stashed changes
