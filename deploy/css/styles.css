@@ -405,9 +405,6 @@ textarea {
 /* =============
     GettingStarted
 ============= */
-#GettingStarted ul li {
-  border: 1px solid red;
-}
 #GettingStarted ul li img {
   width: 100%;
   border: 1px solid red;
@@ -416,9 +413,6 @@ textarea {
 /* =============
     Hero
 ============= */
-#Hero {
-  border: 1px solid red;
-}
 #Hero img {
   width: 100%;
 }
