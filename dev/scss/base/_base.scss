@@ -9,3 +9,14 @@ ul{
         list-style: none;
     }
 }
+
+
+.global-grid{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". global-grid .";
+
+    >div{
+        grid-area: global-grid;
+    }
+}

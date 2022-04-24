@@ -360,16 +360,21 @@ ul li {
   list-style: none;
 }
 
+.global-grid {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". global-grid .";
+}
+.global-grid > div {
+  grid-area: global-grid;
+}
+
 /* =============
     Typography
 ============= */
 /* =============
     Buttons
 ============= */
-button {
-  border: none;
-}
-
 /* =============
     Forms
 ============= */
@@ -394,46 +399,6 @@ textarea {
 /* =============
     Header
 ============= */
-header {
-  color: red;
-  font-size: 0.75rem;
-}
-
 /* =============
     Footer
 ============= */
-<<<<<<< Updated upstream
-=======
-/* =============
-    GettingStarted
-============= */
-#GettingStarted ul li {
-  border: 1px solid red;
-}
-#GettingStarted ul li img {
-  width: 100%;
-  border: 1px solid red;
-}
-
-/* =============
-    Hero
-============= */
-#Hero {
-  border: 1px solid red;
-}
-#Hero img {
-  width: 100%;
-}
-
-/* =============
-    Hero2
-============= */
-#Hero2 img {
-  width: 100%;
-  border: 1px solid red;
-}
-
-/* =============
-    Searchlight
-============= */
->>>>>>> Stashed changes
