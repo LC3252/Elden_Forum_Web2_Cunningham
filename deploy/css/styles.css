@@ -415,6 +415,11 @@ textarea {
 /* =============
     GettingStarted
 ============= */
+#GettingStarted ul {
+  display: grid;
+  gap: 16px;
+  grid-template-rows: repeat(5, auto);
+}
 #GettingStarted ul li img {
   width: 100%;
 }
@@ -440,7 +445,7 @@ textarea {
     Cards
 ============= */
 #Cards img {
-  width: 50%;
+  width: 100%;
 }
 #Cards > div {
   display: grid;

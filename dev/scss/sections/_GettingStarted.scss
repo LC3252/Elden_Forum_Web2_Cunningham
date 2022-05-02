@@ -3,6 +3,9 @@
 ============= */
 #GettingStarted{
     ul{
+        display: grid;
+        gap: 16px;
+        grid-template-rows: repeat(5, auto);
         li{
             img{
                 width: 100%;
