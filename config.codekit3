@@ -293,8 +293,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/global\/head.html",
-      "oF" : 1
+      "oAP" : "\/deploy\/head.html",
+      "oF" : 3
     },
     "\/dev\/global\/header.kit" : {
       "cB" : 0,

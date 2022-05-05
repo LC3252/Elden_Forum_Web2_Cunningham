@@ -2,7 +2,20 @@
     Hero
 ============= */
 #Hero{
-    img{
-        width: 100%;
+
+    @include md{
+        grid-template-columns: auto 80% auto;
+    }
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+    }
+    
+    div{
+        img{
+            width: 100%;
+        }
+    }
+    section{
+
     }
 }

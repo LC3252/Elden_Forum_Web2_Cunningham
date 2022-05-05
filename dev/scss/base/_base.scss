@@ -2,19 +2,31 @@
     Base
 ============= */
 
-ul{
+body {
+    background-color: red;
+
+    @include md{
+        grid-template-columns: 20% 80%;
+        background-color: purple;
+    }
+}
+
+ul {
     padding: 0%;
     margin: 0%;
-    li{
+
+    li {
         list-style: none;
     }
 }
 
-.global-grid{
+.global-grid {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ".global-grid.";
-    >div{
+
+
+    >div {
         grid-area: global-grid;
     }
 }

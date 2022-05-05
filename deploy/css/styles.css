@@ -352,6 +352,16 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: red;
+}
+@media (min-width: 768px) {
+  body {
+    grid-template-columns: 20% 80%;
+    background-color: purple;
+  }
+}
+
 ul {
   padding: 0%;
   margin: 0%;
@@ -433,10 +443,19 @@ textarea {
 /* =============
     Hero
 ============= */
-#Hero img {
+@media (min-width: 768px) {
+  #Hero {
+    grid-template-columns: auto 80% auto;
+  }
+}
+@media (min-width: 1440px) {
+  #Hero {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+#Hero div img {
   width: 100%;
 }
-
 /* =============
     Hero2
 ============= */
